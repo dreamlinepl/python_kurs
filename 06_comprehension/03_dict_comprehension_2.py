@@ -9,7 +9,7 @@ stocks = {'AMZN.US': 'Amazon.com Inc', 'GOOGL.US': 'Alphabet Inc',
           'AAPL.US': 'Apple Inc', 'UBER.US': 'Uber Technologies Inc',
           'MSFT.US': 'Microsoft Corp'}
 # %%
-{key: 'Corp' if 'Corp' in val else 'Inc' for (key, val) in stocks.items()}
+{key: 'Corp' if 'Cor p' in val else 'Inc' for (key, val) in stocks.items()}
 
 # %%
 numbers = range(20)
@@ -45,3 +45,6 @@ for key, val in nested_dict.items():
 # %%
 {key:val['price'] for (key, val) in nested_dict.items()}
 {key: val['price'] * val['items'] for (key, val) in nested_dict.items()}
+
+#%%
+

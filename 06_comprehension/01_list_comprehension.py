@@ -8,9 +8,81 @@
 results = []
 for i in range(100):
     results.append(i**2)
+    print(results)
+
+results = []
+for i in range(100):
+    results.append(i**2)
+    print(results)
+
+results = []
+for i in range(100):
+    results.append(i**2)
+    print(results)
+
+
+results = []
+for i in range(100):
+    results.append(i**2)
+    print(results)
+
+
+results = []
+for i in range(100):
+    results.append(i**2)
+    print(results)
+
+
+results = []
+for i in range(100):
+    results.append(i**2)
+    print(results)
+
+
+results = []
+for i in range(100):
+    results.append(i**2)
+    print(results)
+
+
+results = []
+for i in range(100):
+    results.append(i**2)
+    print(results)
+
+results = []
+for i in range(100):
+    results.append(i**2)
+    print(results)
+
+results = []
+for i in range(100):
+    results.append(i**2)
+    print(results)
+
+
 
 # %%
 results_2 = [i**2 for i in range(100)]
+print(results_2)
+results_2 = [i**2 for i in range(100)]
+print(results_2)
+results_2 = [i**2 for i in range(100)]
+print(results_2)
+results_2 = [i**2 for i in range(100)]
+print(results_2)
+results_2 = [i**2 for i in range(100)]
+print(results_2)
+results_2 = [i**2 for i in range(100)]
+print(results_2)
+results_2 = [i**2 for i in range(100)]
+print(results_2)
+results_2 = [i**2 for i in range(100)]
+print(results_2)
+results_2 = [i**2 for i in range(100)]
+print(results_2)
+results_2 = [i**2 for i in range(100)]
+print(results_2)
 
 # %%
 lista = [i * 3 for i in range(100)]
@@ -60,10 +132,22 @@ def silnia(n):
     else:
         return n * silnia(n - 1)
 
-[silnia(i) for i in range(10)]
+
+kombinacje = (silnia(49)/(silnia(6) * silnia(43)))
+print (kombinacje)
 
 
+def symbol_newtona(n, k):
+    return silnia (n)/(silnia (k) *silnia (n-k))
 
+kombinacje = symbol_newtona (49,6)
+trafne = symbol_newtona(12, 6)
+print (2772*kombinacje/trafne)
+print(3*kombinacje)
+#%%
+
+zadanie = [i for i in range (30) if i%4==0]
+print (zadanie)
 
 
 

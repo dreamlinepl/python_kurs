@@ -16,6 +16,5 @@ drzewo = Drzewo()
 
 # %%
 drzewo.wyswietl_info_o_drzewie()
-
 # %%
 Drzewo.wyswietl_info_o_drzewie(drzewo)

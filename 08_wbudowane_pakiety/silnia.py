@@ -13,7 +13,6 @@ def silnia(n):
         return 1
     else:
         return n * silnia(n - 1)
-
-
+sys.argv
 if __name__ == '__main__':
     print(silnia(int(sys.argv[1])))

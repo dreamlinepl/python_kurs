@@ -46,7 +46,21 @@ with open('tree_2.txt', 'w') as file:
             print('{:>9}'.format('*' * i), end='', file=file)
             print('{}'.format('*' * i), file=file)
 
+#%%
+import json
 
+stocks = {'PLW': ['Playway', 350], 'BBT': ['Boombit', 22]}
+
+with open('stocks.json', 'w') as file:
+    json.dump(stocks, file, indent=4)
+#%%
+headers = ['user_id', 'amount']
+users = [['001', '1400'], ['004', '1300'], ['007', '900']]
+
+with open('users.csv', 'w') as file:
+    file.write(','.join(headers) + '\n')
+    for user in users:
+        file.write(','.join(user) + '\n')
 
 
 

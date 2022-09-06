@@ -1,0 +1,3 @@
+{'name': 'Kate', 'age': 20, 'specialization': 'mathematics'}
+{'name': 'Mike', 'age': 21, 'specialization': 'physics'}
+{'name': 'Bob', 'age': 21, 'specialization': 'information technology'}

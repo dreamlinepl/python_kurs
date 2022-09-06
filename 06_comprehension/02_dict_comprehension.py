@@ -54,10 +54,12 @@ stocks_inc = {key:value for (key, value) in stocks.items() if 'Inc' in value}
 stocks_a = {key:val for (key, val) in stocks.items() \
             if val.startswith('A') if len(val) < 13}
 
+#%%
+d = {'jeden': 1, 'dwa': 2, 'trzy': 3}
+print (d)
 
-
-
-
+d ={key:value for (value, key) in d.items()}
+print (d)
 
 
 

@@ -77,10 +77,7 @@ sorted(lista, key=lambda x: x[1])
 # %%
 for item in lista:
     print(item)
-
-
-
-
+    
 
 
 
